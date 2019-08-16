@@ -38,8 +38,8 @@ function Form({ dataCheck }) {
           <option value="US">United States of America</option>
           <option value="AU">Australia</option>
           <option value="BR">Brazil</option>
-          <option value="AQ">Antarctica</option>
-          <option value="ES">Spain</option>
+          <option value="SA">Saudi Arabia</option>
+          <option value="LV">Latvia</option>
         </select>
       </div>
 
