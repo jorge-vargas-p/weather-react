@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 
 function Form({ dataCheck }) {
   // component state
@@ -54,5 +55,9 @@ function Form({ dataCheck }) {
     </form>
   );
 }
+
+Form.propTypes = {
+  dataCheck: PropTypes.func.isRequired
+};
 
 export default Form;

@@ -12,7 +12,7 @@ function Weather({ result }) {
   const kelvin = 273.15;
 
   return (
-    <div className="card-panel white col s12">
+    <div className="card-panel orange lighten-3 col s12">
       <div className="black-text">
         <h2>The Weather In {name} is:</h2>
         <p className="temperature">
